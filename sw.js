@@ -7,8 +7,8 @@ const urlsToCache = [
   '/assets/styles/main.css',
   '/assets/scripts/main.js',
   '/assets/scripts/Router.js',
-  '/assets/components/RecipeCard.js',
-  '/assets/components/RecipeExpand.js',
+  'assets/components/RecipeCard.js',
+  'assets/components/RecipeExpand.js',
 ];
 // Once the service worker has been installed, feed it some initial URLs to cache
 self.addEventListener('install', function (event) {
